@@ -1,0 +1,114 @@
+body {
+  width: 1300px;
+  height: 645px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #fc5224, #feb431);
+}
+
+.calculator {
+  border: 1px solid rgba(233, 124, 0, 0.643);
+  padding-bottom: 20px;
+  border-radius: 16px;
+  justify-content: space-between;
+  background-color: rgba(209, 209, 209, 0);
+  height: 400px;
+  width: 235px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+}
+.calculator:hover {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+}
+.inputText {
+  background-color: rgba(117, 6, 6, 0);
+  color: rgb(0, 0, 0);
+  border: none;
+  height: 35px;
+  width: 226px;
+  text-align: left;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  font-size: 2rem;
+  padding: 0%;
+  margin-top: 16px;
+  padding-left: 8px;
+}
+
+.answer {
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(0, 0, 0);
+  border: none;
+  height: 35px;
+  width: 226px;
+  text-align: right;
+  font-size: 1.5rem;
+  margin-top: 2px;
+  padding-right: 6px;
+}
+.answer::placeholder {
+  color: #000000;
+  padding-right: 10px;
+}
+
+.btn-white {
+  height: 45px;
+  width: 45px;
+  border: none;
+  font-weight: 300;
+  font-size: 20px;
+  color: white;
+  margin: 8px 5px 8px 5px;
+  border-radius: 50%;
+  background-color: #333333;
+}
+
+.btn-white:hover {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn-gray {
+  color: rgb(207, 207, 207);
+  background-color: rgb(0, 0, 0);
+}
+
+.btn-lg {
+  width: 102px;
+  border-radius: 30px 30px 30px 30px;
+  text-align: left;
+  padding-left: 17px;
+}
+
+footer {
+  position: absolute;
+  top: 600px;
+  right: 10px;
+  color: white;
+}
+a {
+  color: white;
+  font-weight: 500;
+  font-size: large;
+  font-family: "Oswald", sans-serif;
+}
+a:hover {
+  color: rgb(250, 100, 0);
+}
+
+footer {
+  color: #000000;
+  text-align: end;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.link {
+  color: black !important;
+  font-weight: 700 !important;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.link:hover {
+  color: white !important;
+}
