@@ -1,5 +1,4 @@
 body {
-  width: 99%;
   height: 643px;
   display: flex;
   justify-content: center;
@@ -104,6 +103,8 @@ footer {
   color: #000000;
   text-align: end;
   bottom: 0;
+  display: flex;
+  flex-shrink: 0;
 }
 .link {
   color: black !important;
