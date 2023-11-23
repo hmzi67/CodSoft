@@ -82,25 +82,13 @@ body {
   padding-left: 17px;
 }
 
-footer {
-  position: absolute;
-  top: 600px;
-  right: 10px;
-  color: white;
-  bottom: 0;
-  position: fixed;
-}
-a {
-  color: white;
-  font-weight: 500;
-  font-size: large;
-  font-family: "Oswald", sans-serif;
-}
-a:hover {
-  color: rgb(250, 100, 0);
-}
+
 
 footer {
+  right: 10px;
+  height: auto;
+  position: absolute;
+  top: 600px;
   color: #000000;
   text-align: end;
   bottom: 0;
