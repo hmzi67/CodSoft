@@ -85,21 +85,16 @@ body {
 
 
 footer {
-  right: 10px;
-  height: auto;
   position: absolute;
-  top: 600px;
   color: #000000;
-  text-align: end;
   bottom: 0;
-  display: flex;
-  flex-shrink: 0;
+  right: 20px;
 }
 .link {
-  color: black !important;
-  font-weight: 700 !important;
+  color: black;
+  font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
 }
 .link:hover {
-  color: white !important;
+  color: rgb(17, 27, 85);
 }
