@@ -35,19 +35,17 @@ $(document).ready(function () {
 
   // typing text animation script
   var typed = new Typed(".typing", {
-    strings: ["WEB Developer", "Freelancer", "Student BSCS"],
+    strings: ["Developer", "Freelancer", "Student BSCS"],
     typeSpeed: 100,
     backSpeed: 60,
-    smooth: true,
     loop: true,
   });
 
   var typed = new Typed(".typing-2", {
-    strings: ["WEB Developer", "Freelancer", "Student BSCS"],
+    strings: ["Developer", "Freelancer", "Student BSCS"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
-    smooth: true,
   });
 
   // owl carousel script
@@ -62,11 +60,11 @@ $(document).ready(function () {
         items: 1,
         nav: false,
       },
-      60: {
+      600: {
         items: 2,
         nav: false,
       },
-      100: {
+      1000: {
         items: 3,
         nav: false,
       },
