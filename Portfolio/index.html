@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Hamza Waheed">
+    <meta name="google-site-verification" content="Gf0pqLGJrcBgpOgVjfsj4eQmBVfG_wMa2yfiSibtQj0" />
     <link rel="shortcut icon" href="./assets/favicon/favicon-16x16.png" type="image/x-icon">
     <title>Hamza Waheed</title>
     <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
@@ -376,10 +377,10 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="https://getform.io/f/8ca660ec-05bb-4e2e-969e-b2e7cad2aadc" method="POST" id="my-form">
+                    <form action="" method="POST" id="my-form">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" required name="name">
+                                <input type="text" id="userName" placeholder="Name" required name="name">
                             </div>
                             <div class="field email">
                                 <input type="email" placeholder="abc@gmail.com" required name="email">
@@ -393,7 +394,7 @@
                             <input type="hidden" name="_gotcha" style="display:none !important">
                         </div>
                         <div class="button-area">
-                            <button type="submit">Send message</button>
+                            <button type="submit" onclick="sendEmail()">Send message</button>
                         </div>
                     </form>
                 </div>
@@ -412,6 +413,7 @@
     </footer>
 
     <script src="script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 </body>
 
 </html>

@@ -71,3 +71,26 @@ $(document).ready(function () {
     },
   });
 });
+
+
+function sendEmail() {
+
+  let userName = document.querySelector("userName");
+  let userEmail = document.getElementById()
+
+
+
+  console.log("hello " + userName);
+
+  Email.send({
+    Host : "smtp.elasticemail.com",
+    Username : "hamzawaheed057@gmail.com",
+    Password : "540080562F6AE78214EDD7F5136BAB7EB452",
+    To : 'codehuntspk@gmail.com',
+    From : "hamzawaheed057@gmail.com",
+    Subject : "This is the subject",
+    Body : "And this is the body"
+    }).then(
+      message => alert(message)
+    );
+}
